@@ -1,0 +1,14 @@
+{
+  "alertThreshold": 75,
+  "faceBlurEnabled": true,
+  "notificationChannels": {
+    "sms": true,
+    "email": true,
+    "whatsapp": false
+  },
+  "darkMode": false,
+  "autoResolveTimeout": 30,
+  "maxConcurrentAlerts": 10,
+  "recordingQuality": "high",
+  "motionSensitivity": 65
+}
