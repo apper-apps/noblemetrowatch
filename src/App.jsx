@@ -8,7 +8,7 @@ import Incidents from "@/components/pages/Incidents";
 import Cameras from "@/components/pages/Cameras";
 import Settings from "@/components/pages/Settings";
 import Layout from "@/components/organisms/Layout";
-
+import NotificationToast from "@/components/organisms/NotificationToast";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -84,6 +84,7 @@ function App() {
             </Layout>
           } />
         </Routes>
+<NotificationToast />
         
         <ToastContainer
           position="top-right"
