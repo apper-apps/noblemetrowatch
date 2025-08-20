@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "type": "Theft",
+    "cameraId": "CAM001",
+    "cameraName": "Platform A - East",
+    "timestamp": "2024-01-15T14:30:25Z",
+    "snapshot": "https://picsum.photos/400/300?random=1",
+    "status": "Active",
+    "description": "Suspicious individual observed taking unattended bag from bench"
+  },
+  {
+    "Id": 2,
+    "type": "Unattended Object",
+    "cameraId": "CAM003",
+    "cameraName": "Entrance Hall",
+    "timestamp": "2024-01-15T13:45:12Z",
+    "snapshot": "https://picsum.photos/400/300?random=2",
+    "status": "Resolved",
+    "description": "Large suitcase left unattended for over 10 minutes"
+  },
+  {
+    "Id": 3,
+    "type": "Vandalism",
+    "cameraId": "CAM007",
+    "cameraName": "Platform B - West",
+    "timestamp": "2024-01-15T12:15:33Z",
+    "snapshot": "https://picsum.photos/400/300?random=3",
+    "status": "Active",
+    "description": "Person spray painting on metro car exterior"
+  },
+  {
+    "Id": 4,
+    "type": "Unattended Object",
+    "cameraId": "CAM012",
+    "cameraName": "Concourse Level 2",
+    "timestamp": "2024-01-15T11:20:45Z",
+    "snapshot": "https://picsum.photos/400/300?random=4",
+    "status": "Resolved",
+    "description": "Backpack left near ticket machines"
+  },
+  {
+    "Id": 5,
+    "type": "Theft",
+    "cameraId": "CAM005",
+    "cameraName": "Ticket Counter",
+    "timestamp": "2024-01-15T10:55:18Z",
+    "snapshot": "https://picsum.photos/400/300?random=5",
+    "status": "Active",
+    "description": "Individual attempting to access restricted fare collection area"
+  },
+  {
+    "Id": 6,
+    "type": "Suspicious Activity",
+    "cameraId": "CAM009",
+    "cameraName": "Emergency Exit",
+    "timestamp": "2024-01-15T09:30:22Z",
+    "snapshot": "https://picsum.photos/400/300?random=6",
+    "status": "Resolved",
+    "description": "Person loitering near emergency exit for extended period"
+  },
+  {
+    "Id": 7,
+    "type": "Theft",
+    "cameraId": "CAM002",
+    "cameraName": "Platform A - West",
+    "timestamp": "2024-01-15T08:45:55Z",
+    "snapshot": "https://picsum.photos/400/300?random=7",
+    "status": "Active",
+    "description": "Phone snatched from passenger's hand during boarding"
+  },
+  {
+    "Id": 8,
+    "type": "Unattended Object",
+    "cameraId": "CAM014",
+    "cameraName": "Food Court",
+    "timestamp": "2024-01-15T07:22:11Z",
+    "snapshot": "https://picsum.photos/400/300?random=8",
+    "status": "Resolved",
+    "description": "Shopping bags left at table for over 15 minutes"
+  }
+]

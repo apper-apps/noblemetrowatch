@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg;
+  font-size: 14px;
+  min-height: 48px;
+}
+
+.Toastify__toast--success {
+  @apply bg-green-600;
+}
+
+.Toastify__toast--error {
+  @apply bg-red-600;
+}
+
+.Toastify__toast--info {
+  @apply bg-blue-600;
+}
+
+.Toastify__toast--warning {
+  @apply bg-amber-600;
+}
+
+.Toastify__toast-container {
+  @apply text-white;
+  top: 1rem;
+  right: 1rem;
+  width: 350px;
+}
+
+.Toastify__close-button {
+  @apply text-white opacity-70 hover:opacity-100;
+}
+
+.Toastify__progress-bar {
+  @apply bg-white bg-opacity-30;
+}
