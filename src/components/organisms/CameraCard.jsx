@@ -76,8 +76,8 @@ const CameraCard = ({ camera, onUpdate, onDelete }) => {
                 src={camera.feedUrl} 
                 alt={`${camera.name} feed`}
                 className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.target.src = "https://picsum.photos/400/225?random=placeholder";
+onError={(e) => {
+                  e.target.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIyNSIgdmlld0JveD0iMCAwIDQwMCAyMjUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjI1IiBmaWxsPSIjZjNmNGY2Ii8+CjxwYXRoIGQ9Im0xMjUgNTYuMjVjMCAxMi40MjYgMTAuMDc0IDIyLjUgMjIuNSAyMi41czIyLjUtMTAuMDc0IDIyLjUtMjIuNS0xMC4wNzQtMjIuNS0yMi41LTIyLjUtMjIuNSAxMC4wNzQtMjIuNSAyMi41eiIgZmlsbD0iI2Q5ZGFlOCIvPgo8cGF0aCBkPSJtMzEyLjUgMTY4Ljc1LTYyLjUtNjIuNS02Mi41IDQwIDEyNSAyMi41eiIgZmlsbD0iI2Q5ZGFlOCIvPgo8cGF0aCBkPSJtNzUgMTg3LjUtMzEuMjUtMzEuMjVjLTEuMjY4LTEuMjY4LTIuNzMtMS4xNjgtNC4xNjcuMTY3bC0yNy4wODMgMjUuMDE2djM3LjU2N2g2Mi41eiIgZmlsbD0iI2Q5ZGFlOCIvPgo8L3N2Zz4K";
                 }}
               />
             ) : (
