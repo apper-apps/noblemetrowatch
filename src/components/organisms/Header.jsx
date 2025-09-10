@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
-import { AuthContext } from "../App";
+import { AuthContext } from "../../App";
 import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
 
